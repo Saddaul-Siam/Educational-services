@@ -12,6 +12,8 @@ const Login = () => {
       <p className="mb-1">Email/Phone number</p>
       <input className="mb-2 input-field" placeholder='phone/email' type="text" />
       <br />
+      <input className="input-field" placeholder='password' type="password" />
+      <br />
       <button onClick={handelClick} className="login-btn" >Login</button>
     </div>
   );

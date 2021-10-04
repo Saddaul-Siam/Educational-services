@@ -59,7 +59,7 @@ const Footer = () => {
                     <i class="bi bi-phone"></i>
                   </div>
                   <div>
-                    <h5>+1 8 800 555 35 35</h5>
+                    <h5>+88013**************</h5>
                   </div>
                 </div>
                 <div className="map d-flex align-items-center justify-content-center">

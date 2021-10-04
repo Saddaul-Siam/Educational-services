@@ -7,8 +7,8 @@ const Service = (props) => {
   const { title, img, description, finish, time, tk, techer } = props.service;
   return (
     <div className="col-md-4 py-3">
-      <Card className="h-100" >
-        <Card.Img variant="top" src={img} />
+      <Card className="h-100 rounded-3 ">
+        <Card.Img className="rounded-3 p-2" variant="top" src={img} />
         <Card.Body>
           <Card.Text>
             <h5>Title: {title}</h5>

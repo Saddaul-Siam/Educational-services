@@ -1,14 +1,15 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Coures.css'
 
 const Course = (props) => {
   const { title, img, time, tk } = props?.course
   return (
     <div className="col-md-3 py-3">
       <Link className="text-dark text-decoration-none" to="/services" >
-        <Card>
-          <Card.Img variant="top" src={img} />
+        <Card className="border-radius">
+          <Card.Img className="p-2 border-radius" variant="top" src={img} />
           <Card.Body>
             <Card.Title className="fs-6 ">{title}</Card.Title>
             <Card.Text>
@@ -20,9 +21,7 @@ const Course = (props) => {
           </Card.Body>
         </Card>
       </Link>
-
     </div>
-
   );
 };
 

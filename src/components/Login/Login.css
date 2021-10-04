@@ -1,0 +1,16 @@
+.login-btn{
+  background-color: aquamarine;
+  width: 200px;
+  border: gray;
+}
+.input-field{
+  width: 200px;
+  background-color: #F2F2F2;
+  border: gray;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.input-field ::placeholder{
+  size: 20px;
+}

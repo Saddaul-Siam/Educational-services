@@ -8,7 +8,7 @@ const Course = (props) => {
   return (
     <div className="col-md-3 py-3">
       <Link className="text-dark text-decoration-none" to="/services" >
-        <Card className="border-radius">
+        <Card className="border-radius shadow ">
           <Card.Img className="p-2 border-radius" variant="top" src={img} />
           <Card.Body>
             <Card.Title className="fs-6 ">{title}</Card.Title>

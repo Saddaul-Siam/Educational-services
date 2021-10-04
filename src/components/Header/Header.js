@@ -1,23 +1,75 @@
 import React from 'react';
-import "./Header.css"
+import { Carousel } from 'react-bootstrap';
 
 const Header = () => {
   return (
-    <div className="section fixt-top">
-      <div id="section" className="container d-flex align-items-center justify-content-center">
-        <div className="row d-flex align-items-center justify-content-center">
-          <div className="col-md-6">
-            <h1 className="text-white mt-3 w-100">
-              Easy solution to study at home
-            </h1>
-            <p className="text-white mt-3">
-              Easy School is an online educational platform in Bangladesh created in 2021 by Saddaul Siam 
-            </p>
-          </div>
-          <div className="col-md-6">
-          </div>
-        </div>
-      </div>
+    <div className="section ">
+      <Carousel>
+        <Carousel.Item>
+          <img
+            height='700px'
+            className="d-block w-100"
+            src="https://cdn.10minuteschool.com/images/skills/thumbnails-v3/Spoken%20English_Landscape.jpg"
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            height='700px'
+            className="d-block w-100"
+            src="https://cdn.10minuteschool.com/images/skills/thumbnails-v3/24%20Ghontay%20Quran_Landscape.jpg"
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            height='700px'
+            className="d-block w-100"
+            src="https://cdn.10minuteschool.com/images%2Fskills%2Fjpeg%2FEnglish-Grammar-Crash-Course---Title-Thumbnail.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            height='700px'
+            className="d-block w-100"
+            src="https://cdn.10minuteschool.com/images/skills/jpeg/Kids-English---Title-thumbnail.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            height='700px'
+            className="d-block w-100"
+            src="https://cdn.10minuteschool.com/images/skills/thumbnails-v3/Programming-for-Kids---Title-Thumbnail.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            height='700px'
+            className="d-block w-100"
+            src="https://cdn.10minuteschool.com/images/skills/jpeg/Shundor-O-Druto-Haater-Lekha---Landscape-v2.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            height='700px'
+            className="d-block w-100"
+            src="https://cdn.10minuteschool.com/images/skills/thumbnails-v3/Facebook%20Marketing_Landscape.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            height='700px'
+            className="d-block w-100"
+            src="https://cdn.10minuteschool.com/images%2Fskills%2Fjpeg%2FGhore-Boshe-Freelancing---Title-thumbnail.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+      </Carousel>
     </div>
   );
 };

@@ -6,20 +6,22 @@ import { Button } from 'react-bootstrap';
 const Courses = () => {
   const [courses, setCourses] = useState([]);
   useEffect(() => {
-    fetch('./data.json')
+    fetch('./home-page.json')
       .then(res => res.json())
       .then(data => setCourses(data))
   }, [])
   return (
-    <div className="container">                                             
+    <div className="container">
       <div className="row ">
         {
-          courses?.map(course => <Course                
+          courses?.map(course => <Course
             key={course.id}
             course={course}
           ></Course>)
         }
-        <div><Link to="/service"><Button className="btn-info rounded-3" variant="primary">See more course</Button></Link></div>
+        <div className='pt-3 pb-5'>
+          <Link to="/services"><Button className="btn-info rounded-3" variant="primary">See more course</Button></Link>
+        </div>
       </div>
     </div>
   );

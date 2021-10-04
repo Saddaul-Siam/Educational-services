@@ -1,12 +1,10 @@
 import React from 'react';
 import Courses from '../Courses/Courses';
-// import Header from '../Header/Header';
-
+import Header from '../Header/Header'
 const Home = () => {
   return (
     <div>
-      {/* <Header></Header> */}
-      <h2>This is home</h2>
+      <Header></Header>
       <Courses></Courses>
     </div>
   );

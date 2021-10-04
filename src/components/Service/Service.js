@@ -3,9 +3,8 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Course = (props) => {
-  const { title, img, description, finish, time, tk, techer, id } = props.service;
-  console.log(props.service);
+const Service = (props) => {
+  const { title, img, description, finish, time, tk, techer } = props.service;
   return (
     <div className="col-md-4 py-3">
       <Card className="h-100" >
@@ -27,15 +26,15 @@ const Course = (props) => {
         <Card.Footer> <div className="d-flex justify-content-between align-items-center }">
           <div className="fw-bold fs-6"><span className="fs-3">৳</span> {tk} </div>
           <div className="">
-            <Link to="/login"><Button className="btn btn-success rounded-3" variant="primary">Registration Now</Button></Link>
-            </div>
+            <Link to="/login"><Button className="btn btn-success rounded-3" variant="primary">Enroll Now</Button></Link>
+          </div>
         </div></Card.Footer>
       </Card>
     </div>
   );
 };
 
-export default Course;
+export default Service;
 
 
 

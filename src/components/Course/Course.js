@@ -3,10 +3,10 @@ import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Course = (props) => {
-  const { title, img, time, tk, id } = props?.course
+  const { title, img, time, tk } = props?.course
   return (
     <div className="col-md-3 py-3">
-      <Link className="text-dark text-decoration-none" to="/service" >
+      <Link className="text-dark text-decoration-none" to="/services" >
         <Card>
           <Card.Img variant="top" src={img} />
           <Card.Body>

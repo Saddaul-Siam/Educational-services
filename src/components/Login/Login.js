@@ -7,7 +7,7 @@ const Login = () => {
     history.push('/loginDetails')
   }
   return (
-    <div className="py-5 ">
+    <div className="pt-5 padding">
       <h5>Easy solution to study at home</h5>
       <p className="mb-1">Email/Phone number</p>
       <input className="mb-2 input-field" placeholder='phone/email' type="text" />

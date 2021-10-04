@@ -13,16 +13,16 @@ const Footer = () => {
                 <h1>Easy School</h1>
                 <div className="icons-container d-flex text-center ">
                   <div className="icon">
-                    <i class="bi bi-instagram"></i>
+                    <i className="bi bi-instagram"></i>
                   </div>
                   <div className="icon">
-                    <i class="bi bi-twitter"></i>
+                    <i className="bi bi-twitter"></i>
                   </div>
                   <div className="icon">
-                    <i class="bi bi-youtube"></i>
+                    <i className="bi bi-youtube"></i>
                   </div>
                   <div className="icon">
-                    <i class="bi bi-facebook"></i>
+                    <i className="bi bi-facebook"></i>
                   </div>
                 </div>
                 <p className="mt-4 ">
@@ -56,7 +56,7 @@ const Footer = () => {
                 />
                 <div className="phone d-flex align-items-center justify-content-center mt-4">
                   <div className="foter-phone-icon">
-                    <i class="bi bi-phone"></i>
+                    <i className="bi bi-phone"></i>
                   </div>
                   <div>
                     <h5>+88013**************</h5>
@@ -64,7 +64,7 @@ const Footer = () => {
                 </div>
                 <div className="map d-flex align-items-center justify-content-center">
                   <div className="foter-phone-icon">
-                    <i class="bi bi-shop"></i>
+                    <i className="bi bi-shop"></i>
                   </div>
                   <div>
                     <p>Pabna, Dhaka, Bangladesh</p>
